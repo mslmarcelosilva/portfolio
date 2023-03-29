@@ -211,17 +211,18 @@
     <section class="contact" id="contact">
         <h2 class="heading">Meu <span>contato!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/7253fe88e534d1b8baab8d44ecf263c2" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="Endereço de e-mail">
+                <input type="text" name="name" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="Endereço de e-mail" required>
             </div>
             <div class="input-box">
                 <input type="tel" placeholder="Celular (11) 9xxxx-xxxx">
-                <input type="email" placeholder="Assunto do e-mail">
+                <input type="text" placeholder="Assunto do e-mail" required >
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <input type="submit" value="Enviar mensagem" class="btn">
+            <textarea name="message" placeholder="Sua mensagem"></textarea>
+            <input type="hidden" name="_next" value="https://mslmarcelosilva.netlify.app/">
+            <input type="submit" value="Enviar e-mail" class="btn">
         </form>
     </section>
 

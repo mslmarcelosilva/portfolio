@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Portfolio</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
@@ -18,13 +18,13 @@
         
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Experiências</a>
             <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contato</a>
         </nav>
 
-        <div class="bx bx-moon" id="darkMode-icon"></i></div>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
 
         <div class="bx bx-menu" id="menu-icon"></div>
 
@@ -43,7 +43,7 @@
                 <a href="https://www.instagram.com/mslmarcelosilva/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
             </div>
 
-            <a href="#" class="btn">Download CV</a>
+            <a href="doc/Currículo - MARCELO  SILVA LIMA - 2023.docx.pdf" class="btn" download="Currículo">Download CV</a>
         </div>
 
         <div class="profession-container">
@@ -62,7 +62,7 @@
                 </div>
                 <div class="profession" style="--i:3;">
                     <i class='bx bx-id-card' ></i>
-                    <h3>Projetos</h3>
+                    <h3>Projetos Web</h3>
                 </div>
 
                 <div class="circle"></div>
@@ -90,7 +90,7 @@
     </section>
 
     <section class="services" id="services">
-        <h2 class="heading">Meus <span>serviços</span></h2>
+        <h2 class="heading">Experiências</span></h2>
 
         <div class="services-container">
             
@@ -192,12 +192,12 @@
                     <div class="testimonial-slide swiper-slide">
                         <img src="img/1516616367885-removebg-preview.png" alt="">
                         <h3>Marcelo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur blandit mauris, nec pellentesque quam bibendum nec. Aliquam quis velit lectus. Nulla in vehicula lorem, eget congue augue. Phasellus non risus nec nulla eleifend auctor quis quis massa. Aenean rhoncus velit lectus, in fringilla odio bibendum in. Sed vestibulum metus diam, in tristique dui hendrerit ac. Mauris vestibulum nulla vel eleifend vestibulum. </p>
+                        <p>Lorem ipsum dolor sit anet, consectetur adipiscing elit. Ut consectetur blandit mauris, nec pellentesque quam bibendum nec. Aliquam quis velit lectus. Nulla in vehicula lorem, eget congue augue. Phasellus non risus nec nulla eleifend auctor quis quis massa. Aenean rhoncus velit lectus, in fringilla odio bibendum in. Sed vestibulum metus diam, in tristique dui hendrerit ac. Mauris vestibulum nulla vel eleifend vestibulum. </p>
                     </div>
                     <div class="testimonial-slide swiper-slide">
                         <img src="img/1516616367885-removebg-preview.png" alt="">
                         <h3>Silva, Marcelo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur blandit mauris, nec pellentesque quam bibendum nec. Aliquam quis velit lectus. Nulla in vehicula lorem, eget congue augue. Phasellus non risus nec nulla eleifend auctor quis quis massa. Aenean rhoncus velit lectus, in fringilla odio bibendum in. Sed vestibulum metus diam, in tristique dui hendrerit ac. Mauris vestibulum nulla vel eleifend vestibulum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur blandit mauris, nec pellentesque quam bibendum nec. Aliquam quis velit lectus. Nulla in vehicula lorem, eget congue augue. Phasellus non risus nec nulla eleifend auctor quis quis massa. Aenean rhoncus velit lectus, in fringilla odio bibendum in. Sed vestibulum metus diam, in tristique dui hezdrerit ac. Mauris vestibulum nulla vel eleifend vestibulum.</p>
                     </div>
                 </div>
 
@@ -211,17 +211,18 @@
     <section class="contact" id="contact">
         <h2 class="heading">Meu <span>contato!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/7253fe88e534d1b8baab8d44ecf263c2" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Nome completo">
-                <input type="email" placeholder="Endereço de e-mail">
+                <input type="text" name="name" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="Endereço de e-mail" required>
             </div>
             <div class="input-box">
                 <input type="tel" placeholder="Celular (11) 9xxxx-xxxx">
-                <input type="email" placeholder="Assunto do e-mail">
+                <input type="text" placeholder="Assunto do e-mail" required >
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-            <input type="submit" value="Enviar mensagem" class="btn">
+            <textarea name="message" placeholder="Sua mensagem"></textarea>
+            <input type="hidden" name="_next" value="https://mslmarcelosilva.netlify.app/">
+            <input type="submit" value="Enviar e-mail" class="btn">
         </form>
     </section>
 
